@@ -20,10 +20,7 @@ git clone https://github.com/raxvan/subprocess.git
 
 ## Usage:
 
-Header:
 ```cpp
-#include "include/subprocess.h"
-
 
 subprocess p;
 subprocess::CreateData cd;
