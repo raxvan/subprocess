@@ -9,6 +9,7 @@ This library offers an intuitive and effective way to interact with subprocesses
 - Synchronize and wait for subprocesses to finish.
 - Capture and handle exit codes.
 - Support for windows and posix platforms.
+- `posix_spawn` instead of `fork()` for performance
 
 ## Getting Started
 

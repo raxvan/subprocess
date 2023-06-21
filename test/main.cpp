@@ -127,7 +127,7 @@ void test_kill_cmd()
 		TTF_ASSERT(rc != 0);
 #endif
 		std::cout << "Process joined the dead with rc:" << rc << std::endl;
-		});
+	});
 
 	ttf::utils::wait_miliseconds(500);
 
