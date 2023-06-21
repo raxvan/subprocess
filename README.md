@@ -8,19 +8,20 @@ This library offers an intuitive and effective way to interact with subprocesses
 - Interact with the standard input/output/error streams of these processes.
 - Synchronize and wait for subprocesses to finish.
 - Capture and handle exit codes.
+- Support for windows and posix platforms.
 
 ## Getting Started
 
 To get started with the library, you should first clone the repository:
 
 ```bash
-git clone https://github.com/your-username/subprocess-cpp.git
+git clone https://github.com/raxvan/subprocess.git
 ```
 
 ## Usage:
 
 Header:
-```
+```cpp
 #include "include/subprocess.h"
 
 
